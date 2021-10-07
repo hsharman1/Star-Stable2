@@ -31,17 +31,20 @@
      font-family: 'Bonheur Royale', cursive;
      font-size: 50px;
    }
-   flex-container{
+   .flex-container{
      display:flex;
      background-color:#F1BABB;
      flex-direction: row;
      align-items: stretch;
      height: 150px;
-     margin: auto auto;
+     length: 50px;
+     margin: 50px 50px ;
    }
    .flex-container div{
+     padding: 25px ;
      background-color: #f1f1f1;
      flex-grow:4;
+
    }
 
    .flex-container .nav{
@@ -63,6 +66,7 @@
    .article {
     flex-grow: 4;
    }
+
   </style>
   <body>
    <header style="color:Violet;"> Star Stable</header>
@@ -70,6 +74,7 @@
   <div class="nav"> <a href="https://www.starstable.com/en/"> Star Stable Online!</a> </div>
 
   <div class="article">
+    <div>
     <h3> What is Star Stable? </h3>
       <p> Star Stable is an online game that is free-play or paid membership.</p>
 
@@ -85,33 +90,45 @@
       <p> Part of the game requires you care for the horse by feeding, grooming and cleaning daily. </p>
       <img src="images/StarStable-TakeCareOfYourHorse.jpg" style="max-width:100%;height:auto;">
     </div>
-  <div class="article">
-     <h3> How to stay competitive. </h3>
-     <p>  If a day is missed the strength level will drop and the horse will perform poorly and that is displayed on a color-coded “Happiness” bar.
-  The inventory of supplies (character clothes, horse equipment and food) are kept in a backpack or storage closet.
-  Supplies are purchased using Star Coins or shillings that are earned by winning races and doing quests.</p>
-  <img src="images/StarStable-Champ.jpg" style="max-width:100%;height:auto;">
-     <h3> How to level up and earn game shillings.</h3>
-     <p> Horse races are timed and involve obstacle courses going through woods, villages, mountains and across rivers.
-Races are grouped by horse and character level resulting in more competitive events as contestants are of similar abilities.
-The higher place finishing the race results in more Star Coins or shillings earned. </p>
-     <img src="images/StarStable-Inventory.jpg"style="max-width:100%;height:auto;">
-      <h3> Quests and outfitting your horse to perform better.</h3>
-      <p> Quests vary greatly in difficulty levels with the more difficult ones taking longer to complete and earning more shillings.
-Some quests can be locating hidden items, doing chores or figuring out complex scenarios.
-Some quests require a few minutes and others can take weeks. </p>
-       <p> The more quests completed, more become available resulting in access to better horse equipment and character clothing and accessories. </p>
-       <p> When outfitting and equipping your horse, those items are purchased using Star Coins or shillings earned by completing races, chores and quests.
-The higher the item price, the better performing your character and horse will be.
-Items for the horse range from saddles, to reins, blankets and stockings.
-Even makeup and hairstyles are available for your character. </p>
-  <section>
-  <img src="images/starstable-1.jpg" style="max-width:33%;height:auto;">
 
-  <img src="images/starstable-2.jpg" style="max-width:33%;height:auto;">
-  <img src="images/starstable-3.jpg" style="max-width:33%;height:auto;">
-  </section>
+
 </div>
+  <div class="article">
+    <div style="flex-grow: 8">
+    <h3> How to stay competitive. </h3>
+    <p>  If a day is missed the strength level will drop and the horse will perform poorly and that is displayed on a color-coded “Happiness” bar.
+ The inventory of supplies (character clothes, horse equipment and food) are kept in a backpack or storage closet.
+ Supplies are purchased using Star Coins or shillings that are earned by winning races and doing quests.</p>
+ <img src="images/StarStable-Champ.jpg" style="max-width:100%;height:auto;">
+     </div>
+   <div>
+        <h3> How to level up and earn game shillings.</h3>
+        <p> Horse races are timed and involve obstacle courses going through woods, villages, mountains and across rivers.
+   Races are grouped by horse and character level resulting in more competitive events as contestants are of similar abilities.
+   The higher place finishing the race results in more Star Coins or shillings earned. </p>
+        <img src="images/StarStable-Inventory.jpg"style="max-width:100%;height:auto;">
+      </div>
+  <div class="article">
+      <div style="flex-grow: 8"> </div>
+      <h3> Quests and outfitting your horse to perform better.</h3>
+
+      <p> Quests vary greatly in difficulty levels with the more difficult ones taking longer to complete and earning more shillings.
+      Some quests can be locating hidden items, doing chores or figuring out complex scenarios.
+      Some quests require a few minutes and others can take weeks. </p>
+      <p> The more quests completed, more become available resulting in access to better horse equipment and character clothing and accessories. </p>
+      <p> When outfitting and equipping your horse, those items are purchased using Star Coins or shillings earned by completing races, chores and quests.
+      The higher the item price, the better performing your character and horse will be. Items for the horse range from saddles, to reins, blankets and stockings.
+      Even makeup and hairstyles are available for your character. </p>
+  </div>
+
+
+
+  </div>
+
+   <div class="article">
+   </div>
+
+
 
   <footer> Copyright 2021 </footer>
 </body>
